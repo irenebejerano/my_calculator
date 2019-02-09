@@ -12,7 +12,10 @@ function cube() {
     num2.value = Math.pow(num2.value, 4);
 
   }
- 
+function seno() {
+    var num2 = document.getElementById("n1");
+    num2.value = Math.sin(num2.value*((Math.PI)/180));
+  } 
 </script>
 </head>
 <body>
@@ -22,7 +25,7 @@ function cube() {
  <p>
  <button onclick="cube()"> x^3 </button>
    <button onclick="cuarta()"> x^4 </button>
-
+ <button onclick="seno()"> sin(x) (x en grados) </button>
  </p>
 </body>
 </html>
